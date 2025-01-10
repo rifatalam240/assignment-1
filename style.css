@@ -79,6 +79,8 @@ body {
   font-size: 16px;
 }
 .vision-btn {
+  outline: none;
+  border: none;
   color: #ffffff;
   /* font-size: 16px; */
   font-weight: 400px;
@@ -128,4 +130,64 @@ body {
 }
 .aim {
   line-height: 24px;
+}
+.sat {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+}
+.satja {
+  border-radius: 24px;
+  padding: 48px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.not {
+  width: 744px;
+  line-height: 24px;
+  height: 72px;
+  font-size: 16px;
+}
+.new {
+  font-size: 32px;
+  font-weight: bold;
+}
+.jajira {
+  width: 134px;
+  margin-bottom: 10px;
+}
+.date {
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  width: 122px;
+  height: 24px;
+}
+.time {
+  font-size: 16px;
+  line-height: 24px;
+  width: 105px;
+  height: 24px;
+}
+.bngnot {
+  gap: 12px;
+}
+.bngnot > button {
+  outline: none;
+  border: none;
+  color: #ffffff;
+  /* font-size: 16px; */
+  font-weight: 400px;
+  width: 122px;
+  background-color: #006a50;
+  height: 41px;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+
+.recent-news > .satja {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
