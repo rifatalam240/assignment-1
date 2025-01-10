@@ -191,3 +191,78 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.dnt {
+  width: 1280px;
+  height: 48px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.national {
+  width: 1104;
+  height: 48px;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+.tkbtn {
+  width: 1071px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 40px;
+  gap: 10px;
+  margin: 0px auto;
+}
+
+.tkbtn > .donate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.other-amount-btn {
+  width: 1032px;
+  height: 64px;
+  padding: 20px 40px 20px 40px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #0e0e0e65;
+}
+.donate-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.done-btn {
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400px;
+  background-color: #006a50;
+  border-radius: 8px;
+  padding: 17px 34px;
+  margin: 20px;
+}
+.tkbtn > .tk-200 {
+  background-color: #c6e4d6;
+  transition: 0.5s;
+}
+.donate-btn {
+  transition: 0.5s;
+}
+.tkbtn > .donate-btn:hover {
+  border: 1px solid #006a50;
+}
