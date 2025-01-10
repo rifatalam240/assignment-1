@@ -2,6 +2,10 @@
 * {
   font-family: "Fira Sans", serif;
 }
+body {
+  padding: 60px;
+  background-color: #f1f1f3;
+}
 .bng {
   background-color: #c6e4d6;
   justify-content: space-between;
@@ -35,27 +39,93 @@
   background-color: #006a50;
 }
 .samephoto {
+  gap: 24px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .secondimg {
+  border-radius: 16px;
+  padding: 32px;
   width: 410px;
   height: 325px;
 
   background-color: #548ff53c;
 }
 .thirdimg {
+  border-radius: 16px;
+  padding: 32px;
   height: 325px;
   width: 410px;
-  background-color: #09a15c;
+  background-color: #c6e4d6;
 }
 .fourthimg {
+  border-radius: 16px;
+  padding: 32px;
   background-color: #f7ebcf;
   height: 325px;
   width: 410px;
 }
 .vision {
+  font-size: 40px;
+  font-weight: bold;
   width: 1280px;
   height: 48px;
+}
+.bangladesh {
+  width: 1280px;
+  height: 48px;
+  line-height: 24px;
+  font-size: 16px;
+}
+.vision-btn {
+  color: #ffffff;
+  /* font-size: 16px; */
+  font-weight: 400px;
+  width: 122px;
+  height: 41px;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+.blue {
+  background-color: #5490f5;
+}
+.green {
+  background-color: #09a15c;
+}
+.yellow {
+  background-color: #ffc239;
+}
+.dig {
+  width: 346px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.grn {
+  width: 346px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.mrdn {
+  width: 362px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.psame {
+  height: 100px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.all {
+  width: 346px;
+}
+.rcn {
+  font-size: 40px;
+  font-weight: bold;
+}
+.aim {
+  line-height: 24px;
 }
