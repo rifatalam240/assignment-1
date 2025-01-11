@@ -8,6 +8,7 @@ body {
   background-color: #f1f1f3;
 }
 .bng {
+  border-radius: 24px;
   background-color: #c6e4d6;
   justify-content: space-between;
   display: flex;
@@ -304,7 +305,8 @@ body {
   color: white;
   border-bottom-right-radius: 8px;
 }
-.subcribe-section {margin-top: 20px;
+.subcribe-section {
+  margin-top: 20px;
   padding: 80px 100px;
   background-color: #c6e4d6;
   border-radius: 24px;
@@ -316,4 +318,26 @@ body {
 .promise-spam {
   font-size: 16px;
   text-align: center;
+}
+.navone {
+  font-size: 32px;
+  font-weight: bold;
+  width: 222px;
+  height: 38px;
+}
+.signbtn {
+  font-weight: 400px;
+  border-color: #006a50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400px;
+  width: 116px;
+  height: 52px;
+  color: #006a50;
+}
+.headernav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
