@@ -327,10 +327,10 @@ body {
 }
 .signbtn {
   font-weight: 400px;
-  border-color: #006a50;
+  border: 1px solid #006a50;
   border-radius: 8px;
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
   width: 116px;
   height: 52px;
   color: #006a50;
