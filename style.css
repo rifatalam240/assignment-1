@@ -2,6 +2,8 @@
 * {
   font-family: "Fira Sans", serif;
   border: 0.1px dashed black;
+  scroll-behavior: smooth;
+  transition: 0.5s;
 }
 body {
   padding: 60px;
@@ -16,17 +18,29 @@ body {
   padding: 70px;
 }
 .firstimg {
-  height: 300px;
-  width: 320px;
+  height: 400px;
+  width: 474px;
+  /* margin-bottom: 40px; */
 }
 .idea {
   font-size: 56px;
   font-weight: bold;
+  margin-top: 0px;
 }
 .nav {
   font-size: 24px;
   color: #0e0e0e;
   opacity: 50%;
+}
+.nav-anchor {
+  text-decoration: none;
+  color: #09a15c;
+  font-size: 20px;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+.nav-anchor:hover {
+  text-decoration: underline;
 }
 .firstbtn {
   outline: none;
@@ -39,6 +53,11 @@ body {
   height: 56px;
   color: #ffffff;
   background-color: #006a50;
+  transition: 0.5s;
+}
+.firstbtn:hover {
+  background-color: antiquewhite;
+  color: black;
 }
 .samephoto {
   gap: 24px;
@@ -94,11 +113,26 @@ body {
 .blue {
   background-color: #5490f5;
 }
+.blue:hover {
+  background-color: white;
+  border: 1px solid #5490f5;
+  color: black;
+}
 .green {
   background-color: #09a15c;
 }
+.green:hover {
+  background-color: white;
+  border: 1px solid #09a15c;
+  color: black;
+}
 .yellow {
   background-color: #ffc239;
+}
+.yellow:hover {
+  background-color: white;
+  border: 1px solid #ffc239;
+  color: black;
 }
 .dig {
   width: 346px;
@@ -258,6 +292,11 @@ body {
   padding: 17px 34px;
   margin: 20px;
 }
+.done-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #006a50;
+}
 .tkbtn > .tk-200 {
   background-color: #c6e4d6;
   transition: 0.5s;
@@ -267,6 +306,7 @@ body {
 }
 .tkbtn > .donate-btn:hover {
   border: 1px solid #006a50;
+  background-color: #006a50;
 }
 .newsletter {
   text-align: center;
@@ -294,7 +334,7 @@ body {
 }
 .subcribe {
   background-color: #006a50;
-  padding: 17px 34px;
+  padding: 18px 34px;
   width: 150px;
   color: 400px;
   font-weight: bold;
@@ -321,6 +361,7 @@ body {
 }
 .navone {
   font-size: 32px;
+  line-height: 0;
   font-weight: bold;
   width: 222px;
   height: 38px;
@@ -335,9 +376,27 @@ body {
   height: 52px;
   color: #006a50;
 }
+.signbtn:hover {
+  background-color: #006a50;
+  color: white;
+  transition: 0.5s;
+}
 .headernav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+.bngnot > button:hover {
+  background-color: white;
+  border: 1px solid #006a50;
+  color: black;
+}
+.subcribe:hover {
+  background-color: black;
+  color: white;
+}
+
+button {
+  cursor: pointer;
 }
